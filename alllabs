@@ -1,0 +1,29 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Created on Tue Jul 17 09:19:46 2018
+
+@author: lamptonmoore
+"""
+unit = input("what lab and part do you want to do")
+if unit = (lab 3 part 2):
+    
+    phrase = "Do Re Me Fa So La Ti Do"
+    phraseList = phrase.split()    
+    # note that  phraseList is equal to ['Do', 'Re', 'Me', 'Fa', 'So', 'La', 'Ti', 'Do']
+    answer = ""
+    for word in phraseList:
+        if word[1] != 'a':
+            answer = answer + word
+            print (answer)
+            
+            
+         
+for j=2 to length(A):
+    do key=A[j]
+    "insert A[j] into the sorted sequence A[1..j-1"
+    i = j-1
+    while i>0 and A[i]>key:
+        do A[i+1] = A[i]
+            i--
+    A[i+1]:= key

@@ -1,0 +1,32 @@
+
+
+def process(name):
+    # name is a file, returns a list of strings 
+    #    from the file
+    f = open(name)
+    answer = []
+    for line in f:
+        answer.append(line.strip())
+    return answer
+
+def classAverage(data):
+    Height = 38
+    totalheight = 0
+    while Height > 0:
+        Height -= 1
+        list = data[Height]
+        totalheight = totalheight + float(list[1])
+    return(totalheight/38)
+
+def heightrange(data):
+    height1
+
+if __name__ == '__main__':
+    filename = "athletes.txt"
+    data = process(filename)
+    print ("THE DATA IS:")
+    for item in data:
+        split_list = item.split(":")
+        print (split_list)
+    print
+    
